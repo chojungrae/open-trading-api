@@ -165,7 +165,7 @@ def set_order_hash_key(h, p):
     if rescode == 200:
         h['hashkey'] = _getResultObject(res.json()).HASH
     else:
-        print("Error:", rescode)
+        print("Error :", rescode)
 
 
 class APIResp:
